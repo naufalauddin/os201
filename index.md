@@ -16,4 +16,4 @@ kami selama menempuh perkuliahan Sistem Operasi.
 # How?
 
 situs-situs berguna selama menempuh mata kuliah Sistem Operasi dapat
-diakses pada situs berikut: situs-situs[https://naufalauddin.github.io/os201/URLs/]
+diakses pada situs berikut: [situs-situs](https://naufalauddin.github.io/os201/URLs/)
