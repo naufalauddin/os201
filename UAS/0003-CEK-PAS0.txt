@@ -1,0 +1,28 @@
+Script started on Mon 08 Jun 2020 02:03:56 PM WIB
+]0;naufal.alauddin@badak: ~/os201/UASnaufal.alauddin@badak:~/os201/UAS$ exitcat SHA1SUM[11@sha1sum 000* >[C[C[C[C[C[C[C[CPS1="\$(eval \$PSTAMP)"exit[KPS1="\$(eval \$PSTAMP)"
+200608-140401-80d6-UAS/> create[K[K[K[K[K[Ksha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-140427-f27f-UAS/> cat Sh[KHA1SUM 
+3a4e0f6c847152b87ba29140915938c888ef9ad8  0000-mypub.txt
+7ff3f9cd9026b57f54f071a81c1bd419e33619a4  0001-mytest.txt
+58ffb9e367636e430fee665d0021a8c644054a15  0002-mytest.txt.asc
+200608-140431-a2c8-UAS/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Naufal Alauddin Hilmi (naufalauddin) <naufal.alauddin@ui.ac.id>"
+4096-bit RSA key, ID C0C253DB, created 2020-02-27
+
+[?1049h[1;44r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J(B[m[17;42H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[18;42H(0[0mx(B[0m Please enter the passphrase to unlock the secret key for the OpenPGP certificate:  (0[0mx(B(B[m[19;42H(0[0mx(B[0m "Naufal Alauddin Hilmi (naufalauddin) <naufal.alauddin@ui.ac.id>"[19;127H(0[0mx(B(B[m[20;42H(0[0mx(B[0m 4096-bit RSA key, ID C0C253DB,[20;127H(0[0mx(B(B[m[21;42H(0[0mx(B[0m created 2020-02-27.[21;127H(0[0mx(B(B[m[22;42H(0[0mx(B(B[m[22;127H(0[0mx(B(B[m[23;42H(0[0mx(B(B[m[23;127H(0[0mx(B(B[m[24;42H(0[0mx(B[0m Passphrase _______________________________________________________________________ (0[0mx(B(B[m[25;42H(0[0mx(B(B[m[25;127H(0[0mx(B(B[m[26;42H(0[0mx(B(B[m[26;55H(0[0m(B[0m<OK>[26;109H<Cancel>[26;127H(0[0mx(B(B[m[27;42H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[24;55H(0[0m(B(B[m*(B[m_(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[44;1H[?1049l[?1l>200608-140458-166e-UAS/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-140605-dc16-UAS/> gpg2 --veru[Kify SHA1SUM.asc 
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 02:04:58 PM WIB using RSA key ID C0C253DB
+gpg: Good signature from "Naufal Alauddin Hilmi (naufalauddin) <naufal.alauddin@ui.ac.id>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: F1B5 056C 6348 A250 B417  62E2 1CFC 1B94 C0C2 53DB
+200608-140620-1764-UAS/> exit
+exit
+
+Script done on Mon 08 Jun 2020 02:06:28 PM WIB
