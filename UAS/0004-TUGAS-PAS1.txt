@@ -1,0 +1,37 @@
+Script started on Tue 09 Jun 2020 11:19:49 AM WIB
+]0;naufal.alauddin@badak: ~/os201/UASnaufal.alauddin@badak:~/os201/UAS$ PS1="$ "
+$ echo $GitHubUser
+naufalauddin
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ evel $PSTAMP
+bash: evel: command not found
+$ evel $PSTAMP[1P[1@a
+200609-112032-6977-UAS/> 
+$ 
+$ PS1="\$(eval \$PSTAMP)"
+200609-112042-1581-UAS/> echo -e $CEKSAYA
+naufalauddin ZCZCSCRIPTSTART 200531-191533 naufalauddin
+naufalauddin naufalauddin 200531-191605-d5b2-UAS/ 200531-191605 SEQOK SUMOK d5b2a7f0
+naufalauddin naufalauddin 200531-191628-accf-UAS/ 200531-191628 SEQOK SUMOK accfda11
+naufalauddin naufalauddin 200531-191637-2188-UAS/ 200531-191637 SEQOK SUMOK 218854d9
+naufalauddin naufalauddin 200531-191650-5ee4-UAS/ 200531-191650 SEQOK SUMOK 5ee48293
+naufalauddin ZCZCSCRIPTSTOP 200531-191657 SEQOK
+200609-112053-7cf4-UAS/> echo -e $CEKSAYA[C[C[K[K[K[KSEBELA1
+naufalauddin ZCZCSCRIPTSTART 200603-1028 naufalhilmi12345
+naufalauddin naufalhilmi12345 200603-102728-227d-naufal.hilmi/ SEQOK SUMOK 227d1508
+naufalauddin naufalhilmi12345 200603-102730-760d-naufal.hilmi/ SEQOK SUMOK 760ddceb
+naufalauddin naufalhilmi12345 200603-102752-cbc6-naufal.hilmi/ SEQOK SUMOK cbc6e53d
+naufalauddin naufalhilmi12345 200603-102812-8f22-naufal.hilmi/ SEQOK SUMOK 8f22cbe1
+naufalauddin ZCZCSCRIPTSTOP 200603-102927 SEQOK
+200609-112100-227f-UAS/> echo -e $CEKSEBELA1[K2
+naufalauddin ZCZCSCRIPTSTART 200602-161830 naufal-prakoso
+naufalauddin naufal-prakoso 200602-161904-af47-naufal.thirafy/ SEQOK SUMOK af47053a
+naufalauddin naufal-prakoso 200602-161910-7559-naufal.thirafy/ SEQOK SUMOK 7559351a
+naufalauddin naufal-prakoso 200602-161916-fe3f-naufal.thirafy/ SEQOK SUMOK fe3f15f8
+naufalauddin naufal-prakoso 200602-161922-c7e2-naufal.thirafy/ SEQOK SUMOK c7e27feb
+naufalauddin ZCZCSCRIPTSTOP 200602-161928 SEQOK
+200609-112105-05d0-UAS/> exit
+exit
+
+Script done on Tue 09 Jun 2020 11:21:20 AM WIB
